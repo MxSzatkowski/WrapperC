@@ -8,3 +8,13 @@ C:\Users\micha\Desktop\MichalNauka\Wraper\Wraper\bin\Debug\netstandard2.0\Wrappe
 C:\Users\micha\Desktop\MichalNauka\Wraper\Wraper\bin\Debug\netstandard2.0\Wrapper.pdb
 C:\Users\micha\Desktop\MichalNauka\Wraper\Wraper\obj\Debug\netstandard2.0\Wrapper.dll
 C:\Users\micha\Desktop\MichalNauka\Wraper\Wraper\obj\Debug\netstandard2.0\Wrapper.pdb
+C:\Users\micha\Documents\GitHub\WrapperC\Wraper\bin\Debug\netstandard2.0\Wrapper.deps.json
+C:\Users\micha\Documents\GitHub\WrapperC\Wraper\bin\Debug\netstandard2.0\Wrapper.dll
+C:\Users\micha\Documents\GitHub\WrapperC\Wraper\bin\Debug\netstandard2.0\Wrapper.pdb
+C:\Users\micha\Documents\GitHub\WrapperC\Wraper\obj\Debug\netstandard2.0\Wrapper.csproj.AssemblyReference.cache
+C:\Users\micha\Documents\GitHub\WrapperC\Wraper\obj\Debug\netstandard2.0\Wrapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\Documents\GitHub\WrapperC\Wraper\obj\Debug\netstandard2.0\Wrapper.AssemblyInfoInputs.cache
+C:\Users\micha\Documents\GitHub\WrapperC\Wraper\obj\Debug\netstandard2.0\Wrapper.AssemblyInfo.cs
+C:\Users\micha\Documents\GitHub\WrapperC\Wraper\obj\Debug\netstandard2.0\Wrapper.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\GitHub\WrapperC\Wraper\obj\Debug\netstandard2.0\Wrapper.dll
+C:\Users\micha\Documents\GitHub\WrapperC\Wraper\obj\Debug\netstandard2.0\Wrapper.pdb

@@ -1,14 +1,15 @@
-﻿using Wrapper;
+﻿using ExecFile;
+using System.Threading.Tasks;
+using Wrapper;
 
 namespace Test
 {
-    public static class Program
+    public class Exec
     {
         static void Main(string[] args)
         {
-            //Use method from library
-            var wrap = new CPlusPlusWraper();
-            wrap.UseAddNumbers();
+            var tets = new ExecWrapper();
+            tets.UseWrapperMethod();
         }
     }
 }

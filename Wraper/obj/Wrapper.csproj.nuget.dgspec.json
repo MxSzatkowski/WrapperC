@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\Desktop\\MichalNauka\\WrapperForCPlusPlus\\Wraper\\Wrapper.csproj": {}
+    "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\Desktop\\MichalNauka\\WrapperForCPlusPlus\\Wraper\\Wrapper.csproj": {
+    "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\Desktop\\MichalNauka\\WrapperForCPlusPlus\\Wraper\\Wrapper.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj",
         "projectName": "Wrapper",
-        "projectPath": "C:\\Users\\micha\\Desktop\\MichalNauka\\WrapperForCPlusPlus\\Wraper\\Wrapper.csproj",
+        "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\Desktop\\MichalNauka\\WrapperForCPlusPlus\\Wraper\\obj\\",
+        "outputPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,11 +53,12 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
