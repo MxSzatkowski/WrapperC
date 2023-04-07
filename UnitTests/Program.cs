@@ -4,13 +4,19 @@ using Wrapper;
 using NUnit.Framework.Internal.Execution;
 using Test;
 using ExecFile;
+using System.Runtime.InteropServices;
 
 namespace UnitTests
 {
     [TestFixture]
     public class Tests
     {
-     
+        public const string DllPath = @"..\..\..\..\x64\Debug\CPlusPlus.dll";
+
+        [DllImport(DllPath, CallingConvention = CallingConvention.Cdecl)]
+        public static extern int AddNumbers();
+
+
         [Test]
         public void UseAddNumber_return30()
         {
@@ -24,7 +30,7 @@ namespace UnitTests
         }
 
         [Test]
-        public void Testowanko2_return30()
+        public void UseWrapperMethod_return30()
         {
             var ExecContext = new ExecWrapper();
 
@@ -36,19 +42,28 @@ namespace UnitTests
         }
 
         [Test]
-        public void UseWrapperFunction_IsEqualToUseAddNumbers()
+        public void UseWrapperMethod_IsEqualToUseAddNumbers()
         {
-            var ExecContext = new ExecWrapper();
+            var execContext = new ExecWrapper();
 
-            var ciape= new CPlusPlusWraper();
+            var wraperContext= new CPlusPlusWraper();
 
-            var ciap = ciape.UseAddNumbers();
+            var wraper = wraperContext.UseAddNumbers();
 
-            var result = ExecContext.UseWrapperMethod();
+            var result = execContext.UseWrapperMethod();
 
-            Assert.That(result, Is.EqualTo(ciap));
+            Assert.That(result, Is.EqualTo(wraper));
         }
 
+        [Test]
+        public void UseAddNumber_returnAddNumbers()
+        {
+            var wrapperContext = new CPlusPlusWraper();
+
+            var result = wrapperContext.UseAddNumbers();
+
+            Assert.That(result, Is.EqualTo(AddNumbers()));
+        }
 
 
     }
