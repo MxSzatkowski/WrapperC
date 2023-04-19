@@ -299,6 +299,18 @@
           "bin/placeholder/CPlusPlus.dll": {}
         }
       },
+      "CPPWrapper/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "CPlusPlus": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CPPWrapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CPPWrapper.dll": {}
+        }
+      },
       "Wrapper/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -807,6 +819,11 @@
       "path": "../CPlusPlus/CPlusPlus.vcxproj",
       "msbuildProject": "../CPlusPlus/CPlusPlus.vcxproj"
     },
+    "CPPWrapper/1.0.0": {
+      "type": "project",
+      "path": "../CPPWrapper/CPPWrapper.vcxproj",
+      "msbuildProject": "../CPPWrapper/CPPWrapper.vcxproj"
+    },
     "Wrapper/1.0.0": {
       "type": "project",
       "path": "../Wraper/Wrapper.csproj",
@@ -815,6 +832,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CPPWrapper >= 1.0.0",
       "CPlusPlus >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
@@ -855,6 +873,9 @@
           "projectReferences": {
             "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\CPlusPlus\\CPlusPlus.vcxproj": {
               "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\CPlusPlus\\CPlusPlus.vcxproj"
+            },
+            "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\CPPWrapper\\CPPWrapper.vcxproj": {
+              "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\CPPWrapper\\CPPWrapper.vcxproj"
             },
             "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj": {
               "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj"

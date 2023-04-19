@@ -10,7 +10,7 @@ namespace ExecFile
         public int UseWrapperMethod()
         {
             var wrap = new CPlusPlusWraper();
-            return wrap.UseAddNumbers();
+            return wrap.UseAddNumbers(10, 20);
         }
 
     }
