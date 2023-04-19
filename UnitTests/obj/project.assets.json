@@ -1084,6 +1084,27 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
+      "Core/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "CWrapper/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CWrapper.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CWrapper.dll": {}
+        }
+      },
       "Wrapper/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -3983,6 +4004,16 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.vcxproj",
+      "msbuildProject": "../Core/Core.vcxproj"
+    },
+    "CWrapper/1.0.0": {
+      "type": "project",
+      "path": "../CWrapper/CWrapper.vcxproj",
+      "msbuildProject": "../CWrapper/CWrapper.vcxproj"
+    },
     "Wrapper/1.0.0": {
       "type": "project",
       "path": "../Wraper/Wrapper.csproj",
@@ -3991,6 +4022,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "CWrapper >= 1.0.0",
       "FakeItEasy >= 7.3.1",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "NUnit >= 3.13.3",
@@ -4007,11 +4039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\UnitTests\\UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\UnitTests\\UnitTests.csproj",
       "projectName": "UnitTests",
-      "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\UnitTests\\UnitTests.csproj",
+      "projectPath": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\UnitTests\\UnitTests.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\UnitTests\\obj\\",
+      "outputPath": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4032,8 +4064,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj": {
-              "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj"
+            "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\CWrapper\\CWrapper.vcxproj": {
+              "projectPath": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\CWrapper\\CWrapper.vcxproj"
+            },
+            "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\Wraper\\Wrapper.csproj": {
+              "projectPath": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\Wraper\\Wrapper.csproj"
             }
           }
         }

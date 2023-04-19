@@ -290,25 +290,25 @@
           }
         }
       },
-      "CPlusPlus/1.0.0": {
+      "Core/1.0.0": {
         "type": "project",
         "compile": {
-          "bin/placeholder/CPlusPlus.dll": {}
+          "bin/placeholder/Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CPlusPlus.dll": {}
+          "bin/placeholder/Core.dll": {}
         }
       },
-      "CPPWrapper/1.0.0": {
+      "CWrapper/1.0.0": {
         "type": "project",
         "dependencies": {
-          "CPlusPlus": "1.0.0"
+          "Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/CPPWrapper.dll": {}
+          "bin/placeholder/CWrapper.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CPPWrapper.dll": {}
+          "bin/placeholder/CWrapper.dll": {}
         }
       },
       "Wrapper/1.0.0": {
@@ -814,15 +814,15 @@
         "version.txt"
       ]
     },
-    "CPlusPlus/1.0.0": {
+    "Core/1.0.0": {
       "type": "project",
-      "path": "../CPlusPlus/CPlusPlus.vcxproj",
-      "msbuildProject": "../CPlusPlus/CPlusPlus.vcxproj"
+      "path": "../Core/Core.vcxproj",
+      "msbuildProject": "../Core/Core.vcxproj"
     },
-    "CPPWrapper/1.0.0": {
+    "CWrapper/1.0.0": {
       "type": "project",
-      "path": "../CPPWrapper/CPPWrapper.vcxproj",
-      "msbuildProject": "../CPPWrapper/CPPWrapper.vcxproj"
+      "path": "../CWrapper/CWrapper.vcxproj",
+      "msbuildProject": "../CWrapper/CWrapper.vcxproj"
     },
     "Wrapper/1.0.0": {
       "type": "project",
@@ -832,8 +832,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "CPPWrapper >= 1.0.0",
-      "CPlusPlus >= 1.0.0",
+      "CWrapper >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Wrapper >= 1.0.0"
@@ -846,11 +845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\ExecFile\\ExecFile.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\ExecFile\\ExecFile.csproj",
       "projectName": "ExecFile",
-      "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\ExecFile\\ExecFile.csproj",
+      "projectPath": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\ExecFile\\ExecFile.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\ExecFile\\obj\\",
+      "outputPath": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\ExecFile\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -871,14 +870,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\CPlusPlus\\CPlusPlus.vcxproj": {
-              "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\CPlusPlus\\CPlusPlus.vcxproj"
+            "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\CWrapper\\CWrapper.vcxproj": {
+              "projectPath": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\CWrapper\\CWrapper.vcxproj"
             },
-            "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\CPPWrapper\\CPPWrapper.vcxproj": {
-              "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\CPPWrapper\\CPPWrapper.vcxproj"
-            },
-            "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj": {
-              "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj"
+            "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\Wraper\\Wrapper.csproj": {
+              "projectPath": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\Wraper\\Wrapper.csproj"
             }
           }
         }

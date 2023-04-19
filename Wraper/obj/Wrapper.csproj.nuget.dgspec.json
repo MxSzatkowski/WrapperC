@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj": {}
+    "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\Wraper\\Wrapper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj": {
+    "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\Wraper\\Wrapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\Wraper\\Wrapper.csproj",
         "projectName": "Wrapper",
-        "projectPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\Wrapper.csproj",
+        "projectPath": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\Wraper\\Wrapper.csproj",
         "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\micha\\Documents\\GitHub\\WrapperC\\Wraper\\obj\\",
+        "outputPath": "C:\\Users\\micha\\Desktop\\DwaWrapery\\WrapperC\\Wraper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

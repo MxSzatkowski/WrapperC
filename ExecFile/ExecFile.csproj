@@ -15,8 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CPlusPlus\CPlusPlus.vcxproj" />
-    <ProjectReference Include="..\CPPWrapper\CPPWrapper.vcxproj" />
+    <ProjectReference Include="..\CWrapper\CWrapper.vcxproj" />
     <ProjectReference Include="..\Wraper\Wrapper.csproj" />
   </ItemGroup>
 
